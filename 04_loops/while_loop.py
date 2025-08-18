@@ -1,29 +1,29 @@
 # while loop execute some code WHILE some condiito is true  
 
-# name = input("enter Your name: ")
+name = input("enter Your name: ")
 
-# while name == "":
-#     print("You did not enter your name")
-#     name = input("enter Your name: ")
+while name == "":
+    print("You did not enter your name")
+    name = input("enter Your name: ")
 
-# print(f"hello {name}!")
-
-
-# age = int(input("Enter you age: "))
-# while age<0:
-#     print("Your are not born yet")
-#     age = int(input("Enter you age: "))
-
-# print(f"you are  {age}! year old ")
+print(f"hello {name}!")
 
 
-# food = input('Enter a food you like (q to quit)')
+age = int(input("Enter you age: "))
+while age<0:
+    print("Your are not born yet")
+    age = int(input("Enter you age: "))
 
-# while not food == 'q':
-#     print(f"YOu like {food}")
-#     food = input ("Enter anotherfood you like (q to quit)")
+print(f"you are  {age}! year old ")
 
-# print("bye")
+
+food = input('Enter a food you like (q to quit)')
+
+while not food == 'q':
+    print(f"YOu like {food}")
+    food = input ("Enter anotherfood you like (q to quit)")
+
+print("bye")
 
 
 num = int(input("Enter a number between 1-10: "))
